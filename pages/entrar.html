@@ -4,17 +4,17 @@
     <title>Food - Sua comida esta aqui!</title>
     <meta charset="utf-8">
     <link href="public/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="public/css/bootstrap.css">
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
 <nav class="navbar nav-food fixed-top">
     <div class="container-fluid">
-        <a class="offset-md-3 " href="index.html">
-            <img class="navbar-brand" src="public/images/logo.png" width="80" height="auto" alt="home">
+        <a class="offset-md-3 " href="/">
+            <img class="navbar-brand" src="/public/images/logo.png" width="80" height="auto" alt="home">
         </a>
         <div class="col-md-4 ">
-            <a href="entrar.html">
+            <a href="/pages/entrar.html">
                 <button type="button" class="btn btn-outline-light">
                     Entrar ou Cadastrar
                 </button>
@@ -26,35 +26,39 @@
 <div class="container">
     <div class="row">
         <form class="col-4 mx-auto" action="/cardapio" method="post">
-            <h2 class="h1 font-weight-normal mb-4">Criar Conta</h2>
+            <h2 class="h1 font-weight-normal mb-4">Já tem cadastro?</h2>
             <div class="form-group">
                 <label class="mb-0" for="mail"> E-mail</label>
-                <input type="email" class="form-control" placeholder="Ex. exemplo@gmail.com" id="mail" name="email" required>
+                <input type="email" class="form-control" placeholder="Ex. ewertoncoutinho@gmail.com" id="mail" name="email" required>
             </div>
             <div class="form-group">
                 <label class="mb-0" for="pwd">Senha</label>
-                <input type="password" class="form-control" placeholder="Pelo menos 6 caracteres" id="pwd" name="pass" required>
+                <input type="password" class="form-control" placeholder="Digite sua senha" id="pwd" name="pass" required>
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Continuar conectado</label>
             </div>
             <div class="form-group">
-                <label class="mb-0" for="usr">Seu Nome</label>
-                <input type="text" class="form-control" placeholder="Ex. Exemplo Silva" id="usr" name="name" required>
+                <button type="submit" class="btn btn-primary btn-block"><a href="cardapio.html">Entrar<a></button>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary btn-block" value="Criar sua conta da Food">
+                <p class="text-dark">Ao entrar, você concorda com nossos <a href="">termos de uso</a>, condições, <a href="">política de privacidade</a>.</p>
             </div>
-            <div>
-                <p>Ao criar uma conta, você <a href="">concorda com as Condições</a> de uso da Food e com a <a href="">Política de privacidade</a>.</p>
-            </div>
-            <hr>
-            <div>
-                <p>Você já tem uma conta?
-                    <a href="entrar.html">Fazer login</a>
-                </p>
-            </div>
+            <br>
         </form>
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br>
+<div class="col-12">
+    <div class="text-center bg-light mx-auto">
+        <br><br>
+        <p class="h5 font-weight-normal">Você é novo aqui?</p>
+        <a href="cadastrar.html">
+            <span class="font-weight-normal h3">Cadastre-se agora</span>
+        </a>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
+</div>
 <footer class="bg-dark text-white main-footer">
     <div class="container">
         <div class="row">
