@@ -1,0 +1,31 @@
+body{
+    padding-top: 78px;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav-food{
+    background-color: #dc3545;
+    padding: 10px;
+}
+.main-footer{
+    padding: 80px 0 80px;
+}
+.main-footer ul li{
+    list-style: none;
+}
+.main-footer a{
+     color: #fff;
+}
+.main-footer li :hover{
+    color: #ccc;
+}
+.copy{
+    background-color: #1d2124;
+}
+.copy .container{
+    padding: 30px 0 10px 0;
+}
+.copy p{
+    color: #686868;
+}
