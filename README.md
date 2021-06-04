@@ -51,8 +51,7 @@ App to always remember to water your plants 🌱
 
 Demonstration project
 
-sample html, css and bootstrap project for future project with this page
-Link da pagina [Demostração do projeto](https://israel206.github.io/clone-template-ifood/)
+sample html, css and bootstrap project for future project with this link page [Demostração do projeto](https://israel206.github.io/clone-template-ifood/)
 
 ---
 
